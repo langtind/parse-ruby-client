@@ -5,7 +5,7 @@
 # stub: parse-ruby-client 1.0.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "parse-ruby-client"
+  s.name = "parse-ruby-client-agens"
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -138,7 +138,7 @@ Gem::Specification.new do |s|
     "test/test_query.rb",
     "test/test_user.rb"
   ]
-  s.homepage = "http://github.com/adelevie/parse-ruby-client"
+  s.homepage = "https://github.com/langtind/parse-ruby-client"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.8"
   s.summary = "A simple Ruby client for the parse.com REST API"
@@ -167,4 +167,3 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<pry>, [">= 0"])
   end
 end
-
